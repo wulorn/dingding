@@ -11,6 +11,5 @@ golang实现钉钉异步报警,可限制报警次数,具备超时机制
     go dingding.WithRecovery(dingding.SendAlarmMessAge)
     // 发送告警信息的地方调用即可
     dingding.PushMessage("alarm xxx")
-    
-	select {}
+    select {}
 ```
